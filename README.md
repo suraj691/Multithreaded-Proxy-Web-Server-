@@ -9,7 +9,7 @@ This project is implemented using `C` and Parsing of HTTP referred from <a href 
 - [How to Run](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#How-to-Run)
 - [Demo](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#Demo)
 - [Contributing](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#contributing)
-
+-Suraj Hero
 ## Project Theory
 
 [[Back to top]](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#index)
