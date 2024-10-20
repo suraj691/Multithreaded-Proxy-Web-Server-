@@ -5,18 +5,18 @@ This project is implemented using `C` and Parsing of HTTP request.
 
 ## Index
 
-- [Project Theory](https://github.com/suraj691/MultiThreadedProxyServerClient#project-theory)
-- [How to Run](https://github.com/suraj691/MultiThreadedProxyServerClient#How-to-Run)
-- [Demo](https://github.com/suraj691/MultiThreadedProxyServerClient#Demo)
+- [Project Theory](https://github.com/suraj691/Multithreaded-Proxy-Web-Server-#project-theory)
+- [How to Run](https://github.com/suraj691/Multithreaded-Proxy-Web-Server-#How-to-Run)
+- [Demo](https://github.com/suraj691/Multithreaded-Proxy-Web-Server-#Demo)
 
 ## Project Theory
 
-[[Back to top]](https://github.com/suraj691/MultiThreadedProxyServerClient#index)
+[[Back to top]](https://github.com/suraj691/Multithreaded-Proxy-Web-Server-#index)
 
 ##### Introduction
 
 ##### Basic Working Flow of the Proxy Server:
-![](https://github.com/suraj691/MultiThreadedProxyServerClient/blob/main/images/UML.JPG)
+![](https://github.com/suraj691/Multithreaded-Proxy-Web-Server-/blob/main/images/UML.JPG)
 
 ##### How did we implement Multi-threading?
 - Used Semaphore instead of Condition Variables and pthread_join() and pthread_exit() function. 
@@ -59,8 +59,8 @@ This project is implemented using `C` and Parsing of HTTP request.
 ## How to Run
 
 ```bash
-$ git clone https://github.com/suraj691/MultiThreadedProxyServerClient.git
-$ cd MultiThreadedProxyServerClient
+$ git clone https://github.com/suraj691/Multithreaded-Proxy-Web-Server-.git
+$ cd Multithreaded-Proxy-Web-Server-
 $ make all
 $ ./proxy <port no.>
 ```
@@ -71,8 +71,8 @@ $ ./proxy <port no.>
 - To run the proxy without cache Change the name of the file (`proxy_server_with_cache.c to proxy_server_without_cache.c`) MakeFile.
 
 ## Demo
-![](https://github.com/suraj691/MultiThreadedProxyServerClient/blob/main/images/cache.png)
+![](https://github.com/suraj691/Multithreaded-Proxy-Web-Server-/blob/main/images/cache.png)
 - When website is opened for the first time (`url not found`) then cache will be miss.
 - Then if you again open that website again then `Data is retrieved from the cache` will be printed.
 
-[[Back to top]](https://github.com/suraj691/MultiThreadedProxyServerClient#index)
+[[Back to top]](https://github.com/suraj691/Multithreaded-Proxy-Web-Server-#index)
