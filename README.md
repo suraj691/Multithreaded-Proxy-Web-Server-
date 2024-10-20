@@ -16,7 +16,7 @@ This project is implemented using `C` and Parsing of HTTP request.
 ##### Introduction
 
 ##### Basic Working Flow of the Proxy Server:
-![](https://github.com/suraj691/MultiThreadedProxyServerClient/blob/main/pics/UML.JPG)
+![](https://github.com/suraj691/MultiThreadedProxyServerClient/blob/main/images/UML.JPG)
 
 ##### How did we implement Multi-threading?
 - Used Semaphore instead of Condition Variables and pthread_join() and pthread_exit() function. 
@@ -71,7 +71,7 @@ $ ./proxy <port no.>
 - To run the proxy without cache Change the name of the file (`proxy_server_with_cache.c to proxy_server_without_cache.c`) MakeFile.
 
 ## Demo
-![](https://github.com/suraj691/MultiThreadedProxyServerClient/blob/main/pics/cache.png)
+![](https://github.com/suraj691/MultiThreadedProxyServerClient/blob/main/images/cache.png)
 - When website is opened for the first time (`url not found`) then cache will be miss.
 - Then if you again open that website again then `Data is retrieved from the cache` will be printed.
 
